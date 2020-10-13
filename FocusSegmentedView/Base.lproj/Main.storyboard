@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FocusSegmentedView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DV-Mb-RYA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="31"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HI7-fi-574">
+                                        <rect key="frame" x="0.0" y="0.0" width="1891" height="32"/>
+                                        <segments>
+                                            <segment title="First"/>
+                                            <segment title="Second"/>
+                                            <segment title="Third"/>
+                                            <segment title="Fourth"/>
+                                            <segment title="Fifth"/>
+                                            <segment title="Sixth"/>
+                                            <segment title="Seventh"/>
+                                            <segment title="Eightth"/>
+                                            <segment title="Ninth"/>
+                                            <segment title="Tenth"/>
+                                            <segment title="Eleventh"/>
+                                            <segment title="Twelfth"/>
+                                            <segment title="Thriteenth"/>
+                                            <segment title="Forteenth"/>
+                                            <segment title="Fifteenth"/>
+                                            <segment title="Sixteenth"/>
+                                            <segment title="Seventeenth"/>
+                                            <segment title="Eigtheenth"/>
+                                            <segment title="Nineteenth"/>
+                                            <segment title="Twentieth"/>
+                                            <segment title="Twenty First"/>
+                                            <segment title="Twenty Second"/>
+                                            <segment title="Twenty Third"/>
+                                            <segment title="Twenty Fourth"/>
+                                            <segment title="Twenty Fifth"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" secondItem="HI7-fi-574" secondAttribute="height" id="8Ci-g2-3rN"/>
+                                    <constraint firstItem="HI7-fi-574" firstAttribute="top" secondItem="Dm8-Rd-yeu" secondAttribute="top" id="8dc-57-jjC"/>
+                                    <constraint firstItem="HI7-fi-574" firstAttribute="trailing" secondItem="Dm8-Rd-yeu" secondAttribute="trailing" id="XBm-xf-1B9"/>
+                                    <constraint firstItem="HI7-fi-574" firstAttribute="bottom" secondItem="Dm8-Rd-yeu" secondAttribute="bottom" id="hKV-YE-AKA"/>
+                                    <constraint firstItem="HI7-fi-574" firstAttribute="leading" secondItem="Dm8-Rd-yeu" secondAttribute="leading" id="yZd-Ni-d7n"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Dm8-Rd-yeu"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="beM-LG-WQb"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0DV-Mb-RYA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="69G-De-NaO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0DV-Mb-RYA" secondAttribute="trailing" id="IUa-w0-WeN"/>
+                            <constraint firstItem="0DV-Mb-RYA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="d7S-1Q-bDr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="0DV-Mb-RYA" id="yyo-Ie-jj3"/>
+                        <outlet property="segmentedControl" destination="HI7-fi-574" id="zse-u5-9aw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
